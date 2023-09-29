@@ -1,0 +1,69 @@
+#properties {
+    background: #16697a;
+    padding-top: 50px;
+    padding-bottom: 87px
+}
+
+.made,
+.pro-item {
+    display: var(--display);
+    justify-content: space-between
+}
+
+.pro-card h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .1px;
+    color: #fff;
+    padding-bottom: 20px
+}
+
+.made-text h6,
+.pro-card a,
+.pro-card li {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .2px
+}
+
+.pro-card a,
+.pro-card li {
+    padding-bottom: 10px;
+    color: #fff;
+    list-style-type: none;
+    text-decoration: none
+}
+
+.address ul {
+    display: var(--display);
+    flex-direction: column;
+    align-items: flex-start
+}
+
+.tel {
+    list-style-image: url(../Asset/images/address1.svg)
+}
+
+.add {
+    list-style-image: url(../Asset/images/address2.svg)
+}
+
+.email {
+    list-style-image: url(../Asset/images/address3.svg)
+}
+
+#made {
+    padding-top: 25px;
+    padding-bottom: 19px;
+    background: #fafafa
+}
+
+.made-text h6 {
+    color: #737373
+}
+
+.made-logo img {
+    padding-left: 20px
+}
